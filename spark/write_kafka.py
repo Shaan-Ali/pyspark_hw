@@ -1,5 +1,4 @@
-sightingLoc \
-  .groupBy("zip_code", window("start_time", "1 hour")) \
+df.groupBy("zip_code", window("start_time", "1 hour")) \
   .count() \
   .select( \
     to_json(struct("zip_code", "window")).alias("key"),
