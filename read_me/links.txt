@@ -1,0 +1,13 @@
+KafkaSourceProvider Streaming:
+https://jaceklaskowski.gitbooks.io/mastering-spark-sql/content/spark-sql-KafkaSourceProvider.html
+
+
+Good example: For AWS setup:
+https://medium.com/@wfaria_1/kafka-apache-spark-streaming-example-on-aws-free-tier-fcf3c93e15ca
+
+Main doc: for MSK
+https://docs.aws.amazon.com/msk/latest/developerguide/create-cluster.html
+
+
+Good blog to do it:
+https://www.rittmanmead.com/blog/2017/01/getting-started-with-spark-streaming-with-python-and-kafka/
